@@ -16,9 +16,9 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
 *model文件夹中存储训练时产生的多个版本的model的pkl文件。
 
 *代码运行：
-      *想要训练模型，运行python main.py。
-      *想要查看已训练模型结果，运行python evaluate.py。
-      *想要查看其他版本的模型结果，可以在game2048/agents.py中修改加载模型的路径，再运行python evaluate.py即可。
+      想要训练模型，运行python main.py.
+      想要查看已训练模型结果，运行python evaluate.py.
+      想要查看其他版本的模型结果，可以在game2048/agents.py中修改加载模型的路径，再运行python evaluate.py即可.
 
 # Requirements
 * code only tested on linux system (ubuntu 16.04)
