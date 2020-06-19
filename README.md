@@ -11,10 +11,11 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
 * [`evaluate.py`](evaluate.py): evaluate your self-defined agent.
-* 
+
 * main.py: 主函数，包括从训练集中载入数据，模型的搭建以及模型训练。
 * model文件夹中存储训练时产生的多个版本的model的pkl文件。
-* 
+* 由于traindata.csv大小为237MB，无法上传。
+
 * 代码运行：
 * 想要训练模型，运行python main.py。
 * 想要查看已训练模型结果，运行python evaluate.py。
